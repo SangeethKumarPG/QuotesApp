@@ -1,0 +1,106 @@
+
+.quote-container{
+  transition : opacity 0.3s ease-in-out;
+}
+
+.fade-in{
+  opacity : 1;
+}
+
+.fade-out{
+  opacity : 0;
+}
+
+.main-container{
+ margin-top : 12rem !important;
+    width:40% !important;
+    height:25% !important;
+    padding:5% !important;
+}
+
+.font-author-container{
+  margin-left:70%;
+}
+
+.font-author-text{
+ font-weight : bolder;
+  font-style: italic;
+  font-size : 0.9rem
+}
+.quote-close{
+  margin-left:70%;
+}
+
+/* Large screens (1200px and above) */
+@media (min-width: 1200px) {
+  .main-container {
+    margin-top:8rem !important;
+    width: 65% !important;
+    padding: 4% !important;
+  }
+ .current-quote{
+    font-size: xxx-large !important;
+  }
+  .font-author-text {
+    font-size: x-large;
+
+  }
+  .quote-close{
+    margin-left:85%;
+  }
+  .font-author-container{
+    margin-left: 75%;
+  }
+}
+
+/* Medium screens (768px to 1199px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .main-container {
+    width: 65% !important;
+    margin-top: 15rem !important;
+    padding: 6% !important;
+  }
+  .current-quote{
+    font-size: xxx-large !important;
+  }
+  .font-author-text {
+    font-size: large !important;
+  }
+  .quote-close{
+    margin-left:90% !important;
+  }
+  .font-author-container{
+    margin-left: 75%;
+  }
+
+}
+
+/* Small screens (576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+  .main-container {
+    width: 60% !important;
+    margin-top: 8rem !important;
+    padding: 7% !important;
+  }
+  .font-author-text {
+    font-size: 0.8rem;
+  }
+}
+
+/* Extra small screens (up to 575px) */
+@media (max-width: 575px) {
+  .main-container {
+    width: 80% !important;
+    margin-top: 6rem !important;
+    padding: 8% !important;
+  }
+  .font-author-container {
+    margin-left: 60%;
+  }
+  .font-author-text {
+    font-size: 0.75rem;
+  }
+}
+
+
+

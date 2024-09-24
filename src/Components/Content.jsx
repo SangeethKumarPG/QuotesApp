@@ -16,7 +16,7 @@ function Content() {
       setQuotesData(result?.quotes);
       setCurrentQuote(result.quotes[Math.floor(Math.random() * result.quotes.length)]);
       toast.info( <>
-      <span role="img" aria-label="Swipe">👉</span> Swipe or drag <span role="img" aria-label="Drag">🖐️</span> left or right to change the quote!
+      <span role="img" aria-label="Swipe">👉</span> Swipe or drag <span role="img" aria-label="Drag">🖐️</span> the card to left or right to change the quote!
     </>,{
       position:"top-center",style:{ backgroundColor: 'lightblue', color: 'black' }});
     }else{
